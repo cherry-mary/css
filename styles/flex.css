@@ -6,8 +6,11 @@
     flex-direction: column;
     height: 350px;
     background: #d0d4d8;
+    /* flex-direction: ; */
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
-    justify-content: flex-start;
+    /* margin: 15px; */
 }
 .wrapper {
     width: 950px;
@@ -18,4 +21,5 @@
     height: 100px;
     width: 100px;
     background: salmon; 
+    margin: 15px;
 }
