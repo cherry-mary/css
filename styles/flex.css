@@ -1,20 +1,22 @@
+.wrapper {
+    width: 950px;
+    margin: 0 auto;
+}
+.top {
+    display: flex;
+    justify-content: center;  
+}
+.top li {
+    margin: 10px;
+}
 .block {
-    /* height: 100px;
-    width: 100px;
-    background: salmon; */
     display: flex;
     flex-direction: column;
     height: 350px;
     background: #d0d4d8;
-    /* flex-direction: ; */
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    /* margin: 15px; */
-}
-.wrapper {
-    width: 950px;
-    margin: 0 auto;
 }
 .block__element {
     margin-bottom: 20px;
