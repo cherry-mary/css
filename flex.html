@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flex</title>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/flex.css">
 </head>
 <body>
-    <div class="wrapper">
-        <ul class="top">
-            <li><a href="index.html">главная</a></li>
-            <li><a href="index.html">Форум</a></li>
-            <li><a href="index.html">Вопросы и ответы</a></li>
-        </ul>
-        <div class="block">
-            <div class="block__element"></div>
-            <div class="block__element"></div>
-            <div class="block__element"></div>
-            <div class="block__element"></div>
-        </div>
-
-    </div>
-    <!-- block__element -->
+    <nav class="nav">
+            <div class="nav__logo-text">
+                <svg class="nav__logo" width="50" height="56" viewBox="0 0 50 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect y="2.71484" width="50" height="50" fill="#DA4134"/>
+                    <path d="M11 32.9798L39 2.694L44.0056 2.694L13.9568 35.6738L11 32.9798Z" fill="white"/>
+                    <path d="M39.1162 22.4196L11.0056 52.6027L6.00002 52.5844L36.1693 19.7148L39.1162 22.4196Z" fill="white"/>
+                </svg>
+                <p class="nav__text">Shoes company</p>  
+            </div>
+            <ul class="nav__list">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">advantages</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul> 
+    </nav>
 </body>
 </html>
